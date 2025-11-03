@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "thesisarc_agent_node",
+      "name": "thesisarc agent",
+      "parameters": {},
+      "position": [800, 100],
+      "type": "a2a/mastra-a2a-node",
+      "typeVersion": 1,
+      "url": "https://orange-little-afternoon.mastra.cloud/a2a/agent/research_guide"
+    }
+  ]
+}
