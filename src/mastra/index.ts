@@ -5,7 +5,7 @@ import { LibSQLStore } from '@mastra/libsql';
 import { researchGuide } from "./agents/research-guide.agent.ts";
 
 export const mastra = new Mastra({
-  agents: { researchGuide },
+  agents: { research_guide: researchGuide },
   storage: new LibSQLStore({ url: ":memory:" }),
   logger: new PinoLogger({ name: 'Mastra', level: 'info' }),
   telemetry: { enabled: false },
