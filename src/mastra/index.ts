@@ -14,3 +14,5 @@ export const mastra = new Mastra({
 
 // for debugging purposes
 console.log('OPENROUTER_API_KEY ?', process.env.OPENROUTER_API_KEY ? 'OK' : 'MISSING');
+
+// Forcing a clean redeploy
