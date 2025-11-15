@@ -7,8 +7,7 @@ ThesisArc is an intelligent AI agent built for the HNG13 Stage 3 Backend Task. I
 
 This agent connects to Telex.im using the Mastra framework, acting as an on-demand research assistant.
 
-**Live Endpoint URL:** `https://your-project-name.mastra.cloud/a2a/agent/research_guide`
-*(Note: Replace this with your actual deployed Mastra Cloud URL after you deploy.)*
+**Live Endpoint URL:** `https://orange-little-afternoon.mastra.cloud/a2a/agent/research_guide`
 
 ---
 
@@ -94,6 +93,7 @@ The agent processes this and returns the following JSON payload:
   ],
   "mini_task": "Conduct a pilot survey with 10 students to identify key areas of engagement and motivation when using AI tutors."
 }
+```
 
 ## How to Set Up and Run Locally
 
